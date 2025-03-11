@@ -20,6 +20,7 @@ INSERT INTO books (title, author) VALUES
 
 With `.mode box` that looks like
 
+```
 ┌────┬───────────────────────┬─────────────────┐
 │ id │         title         │     author      │
 ├────┼───────────────────────┼─────────────────┤
@@ -28,6 +29,7 @@ With `.mode box` that looks like
 │ 3  │ To Kill a Mockingbird │ Harper Lee      │
 │ 4  │ Moby-Dick             │ Herman Melville │
 └────┴───────────────────────┴─────────────────┘
+```
 
 Then let's make a copy of that database, and mutate it as follows:
 
