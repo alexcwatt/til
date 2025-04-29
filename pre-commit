@@ -1,0 +1,12 @@
+#!/bin/bash
+# copy this file to
+# .git/hooks/pre-commit
+
+# Run the update_readme.py script
+python3 update_readme.py
+
+# Check if the README.md file has been updated
+if [[ `git status --porcelain` == *"README.md"* ]]; then
+  echo "README.md has been updated. Adding it to the commit."
+  git add README.md
+fi
