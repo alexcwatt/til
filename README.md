@@ -4,6 +4,10 @@
 
 - [Free Digital Library Resources](free-things/digital-library.md)
 
+## mysql
+
+- [MySQL Collations](mysql/collations.md)
+
 ## sqlite
 
 - [SQLite Diff](sqlite/diff.md)
