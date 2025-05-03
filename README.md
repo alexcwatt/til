@@ -7,6 +7,7 @@
 ## mysql
 
 - [MySQL Collations](mysql/collations.md)
+- [Upserts](mysql/upserts.md)
 
 ## sqlite
 
