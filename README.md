@@ -4,6 +4,10 @@
 
 - [Free Digital Library Resources](free-things/digital-library.md)
 
+## logging
+
+- [Derived Fields](logging/derived_fields.md)
+
 ## mysql
 
 - [MySQL Collations](mysql/collations.md)
