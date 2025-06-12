@@ -4,6 +4,10 @@
 
 - [Free Digital Library Resources](free-things/digital-library.md)
 
+## git
+
+- [Worktrees](git/worktrees.md)
+
 ## logging
 
 - [Derived Fields](logging/derived_fields.md)
