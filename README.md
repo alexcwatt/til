@@ -17,6 +17,10 @@
 - [MySQL Collations](mysql/collations.md)
 - [Upserts](mysql/upserts.md)
 
+## networking
+
+- [mDNS](networking/mdns.md)
+
 ## sqlite
 
 - [SQLite Diff](sqlite/diff.md)
