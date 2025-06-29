@@ -24,6 +24,7 @@
 ## sqlite
 
 - [SQLite Diff](sqlite/diff.md)
+- [WAL Mode](sqlite/wal-mode.md)
 
 ## vscode
 
