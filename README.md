@@ -21,6 +21,10 @@
 
 - [mDNS](networking/mdns.md)
 
+## ruby
+
+- [`Symbolto_s` object allocations](ruby/symbol-to_s.md)
+
 ## sqlite
 
 - [SQLite Diff](sqlite/diff.md)
