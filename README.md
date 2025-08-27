@@ -21,6 +21,10 @@
 
 - [mDNS](networking/mdns.md)
 
+## rails
+
+- [Middleware](rails/middleware.md)
+
 ## ruby
 
 - [`Symbolto_s` object allocations](ruby/symbol-to_s.md)
