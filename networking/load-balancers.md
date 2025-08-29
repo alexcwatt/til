@@ -5,7 +5,7 @@ I've been getting a crash course on load balancers lately as we've had some issu
 Here are a few things I've learned:
 
 * **Layer 4 load balancer and connection stickiness:** When the client opens a persistent connection to the server via the load balancer, the connection will be "sticky" and terminate at a common server backend.
-  * For HTTP/1.0, where each request/response involves a fresh connection, this means each new request gets mapped to a new backend.
+  * For HTTP/1.0, where each request/response involves a fresh connection, each request gives the load balancer the opportunity to choose a backend.
   * For HTTP/1.1, with keep-alive, the connection can stay open after a request and subsequent requests will route to the same backend.
   * For HTTP/2, if the connection is being used for multiplexed requests, all of the traffic will go to a single backend.
   * In short, you can't _not_ have sticky connections with a Layer 4 load balancer because the TCP connection is the thing that is getting load balanced across backends.
