@@ -32,6 +32,7 @@
 
 ## sqlite
 
+- [Flexible Types](sqlite/flexible-types.md)
 - [SQLite Diff](sqlite/diff.md)
 - [WAL Mode](sqlite/wal-mode.md)
 
