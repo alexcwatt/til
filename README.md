@@ -19,6 +19,7 @@
 
 ## networking
 
+- [Load Balancers](networking/load-balancers.md)
 - [mDNS](networking/mdns.md)
 
 ## rails
