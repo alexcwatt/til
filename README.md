@@ -27,7 +27,7 @@
 
 ## ruby
 
-- [`Symbolto_s` object allocations](ruby/symbol-to_s.md)
+- [`Symbol#to_s` object allocations](ruby/symbol-to_s.md)
 
 ## sqlite
 

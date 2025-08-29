@@ -14,7 +14,7 @@ def generate_til_readme():
 
                 with open(file_path, "r") as f:
                     content = f.read()
-                    title = content.split("\n")[0].replace("#", "").strip()
+                    title = content.split("\n")[0].lstrip("#").strip()
 
                 relative_path = os.path.relpath(file_path, ".")
                 til_dict[category].append((title, relative_path))
