@@ -30,6 +30,10 @@
 
 - [`Symbol#to_s` object allocations](ruby/symbol-to_s.md)
 
+## search-engines
+
+- [Binary Embeddings](search-engines/binary-embeddings.md)
+
 ## sqlite
 
 - [Flexible Types](sqlite/flexible-types.md)
