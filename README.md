@@ -33,6 +33,7 @@
 ## search-engines
 
 - [Binary Embeddings](search-engines/binary-embeddings.md)
+- [Inverse Document Frequency (IDF)](search-engines/inverse-document-frequency.md)
 
 ## sqlite
 
