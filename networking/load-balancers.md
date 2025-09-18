@@ -30,3 +30,7 @@ Imagine a scale-out situation: Your service is seeing increased load and crosses
 If you have persistent connections to the backend through the load balancer, these connections will remain "sticky" to particular proxies, and the scale-out could cause issues. At work, we saw an issue where a scaling event happened - but because we had persistent connections from a fixed pool of clients via our load balancers, the load was stuck on particular Envoy proxies, and we saw increased latency for the traffic going through those proxies.
 
 While persistent connections are useful because they reduce the overhead in making requests, it seems like a good idea to recycle connections occasionally to spread load across the proxies that do the load balancing.
+
+### `GOAWAY`
+
+Note that an HTTP/2 proxy like Envoy might use `GOAWAY` frames to initiate a graceful shutdown. So in the case described, where a single proxy becomes a hotspot, the proxy could send `GOAWAY` informing the client to gracefully end the connection and establish a new connection through the load balancer.
