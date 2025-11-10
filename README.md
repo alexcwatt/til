@@ -6,6 +6,7 @@
 
 ## git
 
+- [Hooks](git/hooks.md)
 - [Worktrees](git/worktrees.md)
 
 ## logging
