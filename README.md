@@ -13,6 +13,10 @@
 
 - [Derived Fields](logging/derived_fields.md)
 
+## machine-learning
+
+- [Foundation Models](machine-learning/foundation-models.md)
+
 ## mysql
 
 - [MySQL Collations](mysql/collations.md)
